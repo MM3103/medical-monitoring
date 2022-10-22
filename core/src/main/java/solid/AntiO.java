@@ -10,11 +10,14 @@ public class AntiO {
 
         int area = 0;
 
-        if (figure.equals("Circle")) {
+        if ("Circle".equals(figure)) {
+
+            System.out.println("");
             //рассчет площади круга
         }
 
-        if (figure.equals("Square")) {
+        if ("Square".equals(figure)) {
+            System.out.println("");
             //рассчет площади квадрата
         }
 

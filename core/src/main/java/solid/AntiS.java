@@ -7,15 +7,23 @@ package solid;
 
 public class AntiS {
 
-    public int id;
+    private String firstName;
 
-    public String firstName;
+    private String secondName;
 
-    public String secondName;
+    private int age;
 
-    public int age;
+    public AntiS(String firstName, String secondName, int age) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.age = age;
+    }
 
     public void addEmployeeInDatabase() {
+
+        System.out.println(firstName);
+        System.out.println(secondName);
+        System.out.println(age);
         //метод добавления работника в бд
     }
 

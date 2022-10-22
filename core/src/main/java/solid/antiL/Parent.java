@@ -2,7 +2,7 @@ package solid.antiL;
 
 public class Parent {
 
-    public String getName(){
+    public String getName() {
         return "name";
     }
 

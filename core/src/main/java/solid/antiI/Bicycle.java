@@ -1,6 +1,6 @@
 package solid.antiI;
 
-public class Bicycle implements AntiI{
+public class Bicycle implements AntiI {
 
     @Override
     public void refuel() {
