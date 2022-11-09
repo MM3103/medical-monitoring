@@ -1,4 +1,4 @@
-package liga.medical.medicalmonitoring.core.api;
+package liga.medical.medicalmonitoring.api;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import liga.medical.common.dto.RabbitMessageDto;

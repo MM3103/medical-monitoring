@@ -3,7 +3,7 @@ package liga.medical.medicalmonitoring.core.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import liga.medical.common.dto.RabbitMessageDto;
-import liga.medical.medicalmonitoring.core.api.RabbitSenderService;
+import liga.medical.medicalmonitoring.api.RabbitSenderService;
 import liga.medical.medicalmonitoring.core.model.QueueNames;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.stereotype.Service;

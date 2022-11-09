@@ -3,8 +3,8 @@ package liga.medical.medicalmonitoring.core.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import liga.medical.common.dto.MessageType;
 import liga.medical.common.dto.RabbitMessageDto;
-import liga.medical.medicalmonitoring.core.api.RabbitRouterService;
-import liga.medical.medicalmonitoring.core.api.RabbitSenderService;
+import liga.medical.medicalmonitoring.api.RabbitRouterService;
+import liga.medical.medicalmonitoring.api.RabbitSenderService;
 import liga.medical.medicalmonitoring.core.model.QueueNames;
 import org.springframework.stereotype.Service;
 
